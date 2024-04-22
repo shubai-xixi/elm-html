@@ -1,0 +1,118 @@
+/****************** 总容器 ************/
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+.wrapper{
+    width: 100vw;
+    height: 100%;
+}
+/****************** header部分 ******************/
+.wrapper header{
+    width: 100vw;
+    height: 12vw;
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 4.8vw;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************** 历史订单列表部分 ******************/
+.wrapper h3{
+    margin-top: 12vw;
+    box-sizing: border-box;
+    padding-left: 4vw;
+    padding-top: 4vw;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #999;
+    /*border: 1px solid darkorange;*/
+
+}
+.wrapper .order{
+    width: 100%;
+    margin: 0 0 ;
+    padding: 0 0;
+    decoration: none;
+    /*border: 1px solid darkorange;*/
+}
+.wrapper .order li{
+    width: 100%;
+}
+.wrapper .order li .order-info{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2vw 4vw;
+    font-size: 4vw;
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .order li .order-info .order-info-right{
+    display: flex;
+    align-items: center;
+}
+.wrapper .order li .order-info .order-info-right .order-info-right-icon{
+    background-color: #f90;
+    color: #fff;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    border-radius: 5px;
+    margin-left: 3vw;
+    font-size: 1vh;
+    cursor: pointer;
+}
+.wrapper .order li .order-detailet{
+    width: 100vw;
+    margin:0 0;
+    padding: 0 0;
+    /*border: 1px solid red;*/
+}
+.wrapper .order li .order-detailet li{
+    color: #333;
+    font-size: 3vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .order li .order-detailet li p{
+    margin-left:10vw;
+    margin-right: 3vw;
+}
+
+/****************** 底部菜单部分 ******************/
+.wrapper .footer {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    background-color: white;
+}
+.wrapper .footer .ico{
+    flex: 1;
+    padding: 0vh 5vw;
+    padding-bottom: 0.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .footer .ico i{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.wrapper .footer .ico p{
+    margin: 1vh 0vw;
+    font-size: 1.5vh;
+}

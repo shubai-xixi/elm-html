@@ -1,0 +1,161 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5vh;
+}
+
+/*头部信息*/
+.wrapper .header{
+    width: 100vw;
+    height: 5vh;
+    background-color: #14BAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+}
+.wrapper .header span{
+    color: white;
+    font-size: 2.4vh;
+    font-weight: 700;
+    font-family: "Microsoft New Tai Lue";
+    /*border: 1px solid red;*/
+}
+
+/*商家信息*/
+.wrapper .business-msg {
+    /*border: 1px solid #000000;*/
+    text-align: center;
+}
+.wrapper .business-msg img{
+    /*border: 1px solid #000000;*/
+    margin-top: 1.2vh;
+}
+.wrapper .business-msg .name{
+    /*border: 1px solid #000000;*/
+    margin-top: 0.2vh;
+    margin-bottom: 0vh;
+    font-size: 4vh;
+    font-weight: 900;
+    /*padding: 0vh 0vh;*/
+}
+.wrapper .business-msg .money{
+    /*border: 1px solid #000000;*/
+    margin-top: 1.2vh;
+    margin-bottom: 0vh;
+    font-size: 2vh;
+    color: #999999;
+}
+.wrapper .business-msg .introduction{
+    /*border: 1px solid #000000;*/
+    margin-top: 1.2vh;
+    margin-bottom: 0.5vh;
+    font-size: 2vh;
+    color: #999999;
+}
+
+/*菜品信息*/
+.wrapper ul{
+    list-style: none;
+    padding: 0 0;
+}
+.wrapper .food-msg {
+    /*border: 1px solid #000000;*/
+    display: flex;
+}
+.wrapper .food-msg img{
+    /*border: 1px solid #000000;*/
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 10px 10px;
+    width: 25vw;
+    height: 25vw;
+}
+.wrapper .food-msg .txt-msg{
+    /*border: 1px solid #2395ff;*/
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+    margin-bottom: 0.5vh;
+}
+.wrapper .food-msg .txt-msg p{
+    margin: 0vh 0vh;
+}
+.wrapper .food-msg .txt-msg .food-name{
+    font-size: 2.5vh;
+    font-weight: 700;
+    color: #444444;
+}
+.wrapper .food-msg .txt-msg .f-introduction,.wrapper .food-msg .txt-msg .f-price{
+    margin-top: 0.5vh;
+    font-size: 2vh;
+    color:#999999;
+}
+.wrapper ul .blank{
+    width: 100vw;
+    height: 8vh;
+}
+
+/*底部导航栏*/
+.wrapper .footer{
+    width: 100vw;
+    height: 8vh;
+    /*border: 1px solid #000000;*/
+    display: flex;
+    position: fixed;
+    bottom: 0vh;
+
+}
+.wrapper .footer .money{
+    background-color: #505051;
+    flex: 2;
+    height: 8vh;
+    display: flex;;
+    position: relative;
+    align-items: center;
+}
+.wrapper .footer .money .circle{
+    width: 6vh;
+    height: 6vh;
+    background-color: #17BAF9;
+    border: 2vw solid #444444;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    bottom:30%;
+    margin-left: 5vw;
+    position: relative;
+}
+.wrapper .footer .money .circle div{
+    border-radius: 50% 50% 50% 50%;
+    width: 2.2vh;
+    height: 2.2vh;
+    background-color: red;
+    color: white;
+    font-size: 1.7vh;
+    text-align: center;
+    padding: 0.08vh 0.08vh;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+
+}
+.wrapper .footer .money .price{
+    margin-left: 1vw;
+}
+.wrapper .footer .money .price .food-money{
+    font-size: 2vh;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.wrapper .footer .money .price .delivary-money{
+    color: lightgrey;
+}
+.wrapper .footer button{
+    background-color: #38CA73;
+    color: white;
+    flex: 1;
+    border: none;
+    font-size: 3vh;
+    font-weight: 800;
+}

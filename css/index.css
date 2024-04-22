@@ -1,0 +1,289 @@
+/*头部样式*/
+.wrapper .header{
+    width: 100vw;
+    height: 5vh;
+    background-color: #17BAF9;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid rebeccapurple;*/
+    /*border: none;*/
+    margin: 0vh 0vw;
+    position: fixed;
+    top: 0vh;
+    z-index: 5;
+    margin: 0 auto;
+
+}
+.wrapper .header span{
+    font-size: 2.4vh;
+    font-weight: 700;
+    font-family: "Microsoft New Tai Lue";
+
+    color: white;
+    padding-left: 10%;
+}
+
+/*定位部分*/
+.wrapper .location{
+    width: 100vw;
+    height: 6.4vh;
+    background-color: #14BAFA;
+    /*border: 1px solid rebeccapurple;*/
+    margin: 0vh 0vw;
+    /*margin-top: 5vh;*/
+}
+.wrapper .location .location-main{
+    height: 6.4vh;
+    background-color:  white;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.wrapper .location .location-main .location-btn{
+    margin-left: 15px;
+    /*border: 1px solid red;*/
+    margin-bottom: 1vh;
+}
+.wrapper .location .location-main .location-btn .location-ico{
+    /*border: 1px solid red;*/
+    font-size: 4vh;
+    color: #2395ff;
+    /*这里还没有图标*/
+}
+.wrapper .location .location-main .location-btn .location-txt{
+    font-size: 2.6vh;
+}
+.wrapper .location .location-main .location-btn .right-ico{
+    font-size: 3vh;
+    /*这里还没有图标*/
+}
+.wrapper .location .location-main .blank {
+    flex: 1;
+}
+.wrapper .location .location-main .advertise{
+    margin-right: 10px;
+    margin-bottom: 1.8vh;
+    /*border: 1px solid red;*/
+}
+.wrapper .location .location-main .advertise span{
+    color: #999999;
+    font-size: 1vh;
+}
+
+/*搜索框部分*/
+.wrapper .search {
+    width: 100vw;
+    z-index: 5;
+    top: 5vh;
+    background-color: white;
+    margin: 0vh 0vw;
+    position: sticky;
+    top: 5vh;
+    /*margin-top: 11.4vh;*/
+}
+.wrapper .search-fix{
+    position: fixed;
+}
+.wrapper .search .search-frame{
+    width: 97%;
+    margin: 0.5vh 1.2vw;
+    height: 3.8vh;
+    border: 2.5px solid #14BAFA;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wrapper .search .search-frame button i{
+
+    /*图标没有找*/
+
+}
+.wrapper .search button{
+    margin-left: 4vw;
+    height: 3vh;
+    border: none;
+    background-color: white;
+    color: #999999;
+    flex: 5;
+}
+.wrapper .search .search-frame .txt{
+    margin-right: -0.3vw;
+    height: 4vh;
+    flex: 1;
+    background-color: #14BAFA;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .search .search-frame .txt span{
+    font-size: 2vh;
+    /*font-weight: 600;*/
+    color: white;
+}
+
+/*主页面的分类推荐部分*/
+.wrapper .main-up{
+    width: 100vw;
+    margin: 0vh 0vw;
+}
+.wrapper .main-up .one {
+    /*border: 1px solid antiquewhite;*/
+    display: flex;
+    position: relative;
+    /*width: 10vw;*/
+}
+.wrapper .main-up .one .point-one a{
+    text-decoration: none;
+    flex: 1 1;
+    /*border: 1px solid aquamarine;*/
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh 2vw;
+}
+.wrapper .main-up .one .point-one img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    /*border: 1px solid #2395ff;*/
+}
+.wrapper .main-up .one span {
+    margin-top: 0.8vh;
+    font-size: 3vw;
+}
+
+/*推荐列表部分*/
+.wrapper ul{
+    width: 100vw;
+    margin: 0vh 0vw;
+    list-style: none;
+    padding:0;
+    background-color: white;
+}
+.wrapper ul li{
+    /*border: 1px solid #2395ff;*/
+}
+.wrapper ul li .frame a {
+    text-decoration: none;
+    background-color: ghostwhite;
+    border-radius: 25px 25px 25px 25px;
+    margin: 1vh 1.5vw;
+    display: flex;
+}
+.wrapper ul li .frame{
+    text-decoration: none;
+    background-color: ghostwhite;
+    border-radius: 25px 25px 25px 25px;
+    margin: 1vh 1.5vw;
+    display: flex;
+}
+.wrapper ul li .frame img{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+    width: 25vw;
+    height: 25vw;
+}
+.wrapper ul li .frame .txt-msg{
+    margin-left: 2vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.wrapper ul li .frame .txt-msg p{
+    /*border: 3px solid peru;*/
+    margin: 0 0;
+}
+.wrapper ul li .frame .txt-msg .name{
+    font-size: 2vh;
+    font-weight: 700;
+}
+.wrapper ul li .frame .txt-msg .busy{
+    /*border: 1px solid black;*/
+    margin-top: 0.7vh;
+    font-size: 1.7vh;
+    color: #999999;
+}
+
+.wrapper ul li .frame .txt-msg .busy .score{
+    color: deepskyblue;
+    font-weight: 900;
+}
+.wrapper ul li .frame .txt-msg .busy .time{
+    margin-left: 15vw;
+
+    /*待改善*/
+
+}
+.wrapper ul li .frame .txt-msg .order-require{
+    /*border: 1px solid black;*/
+    font-size: 1.5vh;
+    color:#999999;
+    margin-top: 0.7vh;
+}
+.wrapper ul li .frame .txt-msg .advertise{
+    /*border: 1px solid black;*/
+    font-size: 1.7vh;
+    color:orange;
+    margin-top: 1vh;
+}
+.wrapper ul li .frame .txt-msg .advertise span{
+    background-color: navajowhite;
+    padding: 0.2vh 0.8vw;
+    border-radius: 5px 5px 5px 5px;
+}
+.wrapper ul li .frame .txt-msg .discount{
+    /*border: 1px solid black;*/
+    font-size: 1vh;
+    margin-top: 1vh;
+}
+.wrapper ul li .frame .txt-msg .discount .manjian{
+    border: 2px solid red;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.2vh 0.5vw;
+    color: crimson;
+}
+.wrapper ul li .frame .txt-msg .discount .huiyuan{
+    border: 2px solid coral;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.2vh 0.5vw;
+    color: darkorange;
+}
+.wrapper ul .blank{
+    width: 100vw;
+    height: 8vh;
+}
+
+/*底部导航栏*/
+.wrapper .footer {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    background-color: white;
+}
+.wrapper .footer .ico{
+    /*border: 2px solid coral;*/
+    flex: 1;
+    padding: 0vh 5vw;
+    padding-bottom: 0.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .footer .ico i{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.wrapper .footer .ico p{
+    margin: 1vh 0vw;
+    font-size: 1.5vh;
+}

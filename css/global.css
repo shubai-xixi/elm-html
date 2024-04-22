@@ -1,0 +1,50 @@
+/***伪造成APP****/
+html{
+    /*width: 100vw;*/
+    margin: 0vh 0vw;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    width: 100vw;
+    margin: 0vh 0vw;
+    padding: 0;
+}
+.wrapper{
+    width: 100vw;
+    height:100vh;
+    border: none;
+    margin: 0;
+    margin-top: 5vh;
+}
+
+/*响应式布局***/
+
+/*超小容器
+@media screen {
+    .wrapper{
+        width: 100%
+    }
+}
+
+/*小屏幕
+@media screen and (min-width: 992px){
+    .wrapper{
+        width: 970px
+    }
+}
+
+/*中屏幕
+@media screen and (min-width: 1200px){
+    .wrapper{
+        width: 1170px
+    }
+}
+
+/*大屏幕
+@media screen and (max-width: 767px){
+    .wrapper{
+        width:
+    }
+
+*/
